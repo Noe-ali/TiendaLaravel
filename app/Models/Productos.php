@@ -13,6 +13,11 @@ class Productos extends Model
     public function proveedores(){
         return $this->belongsTo('App\Models\Proveedores');
     }
+
+    public function categorias(){
+        return $this->belongsTo('App\Models\categorias');
+    }
 }
 
 
+    

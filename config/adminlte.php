@@ -264,6 +264,18 @@ return [
             'icon'        => 'far fa-fw fa-file',
            
         ],
+        [
+            'text'        => 'Categorías',
+            'route'         => 'admin.categoria.index',
+            'icon'        => 'far fa-fw fa-file',
+           
+        ],
+        [
+            'text'        => 'Zona del proveedor',
+            'route'         => 'admin.zona.index',
+            'icon'        => 'far fa-fw fa-file',
+           
+        ],
         ['header' => 'account_settings'],
         [
             'text' => 'profile',
